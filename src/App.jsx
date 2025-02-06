@@ -37,14 +37,14 @@ export default function App() {
       <div className="section2">
         <h1>Trending Courses</h1>
         <div>
-          <button  className="buttons">All</button>
+          <button className="buttons">All</button>
           <button>Business</button>
           <button>Art & Design</button>
           <button>Development</button>
           <button>Marketing</button>
         </div>
         <div className="grid1">
-          <div className='divGr1' >
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -56,7 +56,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -68,7 +68,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -80,7 +80,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -92,7 +92,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -104,7 +104,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -116,7 +116,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -128,7 +128,7 @@ export default function App() {
               </p>
             </div>
           </div>
-          <div className='divGr1'>
+          <div className="divGr1">
             <img src="/src/img/Image Placeholder.png" alt="" />
             <h4>Interpersonal skills - work better with others!</h4>
             <p>Tanah Air Team</p>
@@ -260,43 +260,45 @@ export default function App() {
           <img src="/src/img/01.png" alt="" />
         </div>
       </div>
-      <div className="blog">
+      <div className="blogAll">
         <h1>The Latest Blog</h1>
-        <div className="blog1">
-          <img src="" alt="" />
-          <p>3, Mei 2021 3 min read</p>
-          <h4>10 graphic design trends to get you inspired in 2021</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-            eiusmod.
-          </p>
-          <p>Read More</p>
-        </div>
-        <div className="blog1">
-          <img src="" alt="" />
-          <p>3, Mei 2021 3 min read</p>
-          <h4>10 graphic design trends to get you inspired in 2021</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-            eiusmod.
-          </p>
-          <p>Read More</p>
-        </div>
-        <div className="blog1">
-          <img src="" alt="" />
-          <p>3, Mei 2021 3 min read</p>
-          <h4>10 graphic design trends to get you inspired in 2021</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
-            eiusmod.
-          </p>
-          <p>Read More</p>
+        <div className="blog">
+          <div className="blog1">
+            <img src="/src/img/Image Placeholder.png" alt="" />
+            <p>3, Mei 2021 3 min read</p>
+            <h4>10 graphic design trends to get you inspired in 2021</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
+              eiusmod.
+            </p>
+            <p>Read More</p>
+          </div>
+          <div className="blog1">
+            <img src="/src/img/Image Placeholder.png" alt="" />
+            <p>3, Mei 2021 3 min read</p>
+            <h4>10 graphic design trends to get you inspired in 2021</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
+              eiusmod.
+            </p>
+            <p>Read More</p>
+          </div>
+          <div className="blog1">
+            <img src="/src/img/Image Placeholder.png" alt="" />
+            <p>3, Mei 2021 3 min read</p>
+            <h4>10 graphic design trends to get you inspired in 2021</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do
+              eiusmod.
+            </p>
+            <p>Read More</p>
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
-            <img src="" alt="" />
+      <div className="foot">
+        <div className="footer">
+          <div className="fot1">
+            <img src="/src/img/02.png" alt="" />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               tristique placerat eleifend aliquam pellentesque facilisis
@@ -329,8 +331,8 @@ export default function App() {
             <p>Code of Conduct</p>
           </div>
         </div>
-        <div>
-          <div>
+        <div className="foot2">
+          <div className="foot3">
             <p>Privacy Policy</p>
             <p>Terms and Condition</p>
           </div>

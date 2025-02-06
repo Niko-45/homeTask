@@ -143,3 +143,41 @@ gap: 2%;
 .company1 {
   text-align: center;
 }
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+}
+
+.blogAll {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.fot1 {
+  min-width: 40%;
+  max-width: 40%;
+}
+.foot {
+  background-color: #021934;
+  color: white;
+  padding: 10px;
+}
+.foot2{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot3{
+  display: flex ;
+ gap: 2%;
+}
